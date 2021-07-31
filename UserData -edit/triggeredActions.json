@@ -1,0 +1,25 @@
+[
+  {
+    "IsActive": true,
+    "IsExecuting": false,
+    "IsRepeatable": false,
+    "Executions": 0,
+    "JobId": 0,
+    "Triggers": [
+      {
+        "$type": "RuriLib.Models.Jobs.Monitor.Triggers.JobStatusTrigger, RuriLib",
+        "Status": 0
+      },
+      {
+        "$type": "RuriLib.Models.Jobs.Monitor.Triggers.JobFinishedTrigger, RuriLib"
+      }
+    ],
+    "Actions": [
+      {
+        "$type": "RuriLib.Models.Jobs.Monitor.Actions.DiscordWebhookAction, RuriLib",
+        "Webhook": "",
+        "Message": ""
+      }
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "GeneralSettings": {
+    "ParallelizerType": 0,
+    "LogJobActivityToFile": true,
+    "RestrictBlocksToCWD": true,
+    "UseCustomUserAgentsList": false,
+    "EnableBotLogging": true,
+    "VerboseMode": false,
+    "UserAgents": []
+  },
+  "CaptchaSettings": {
+    "CurrentService": 0,
+    "TimeoutSeconds": 120,
+    "PollingIntervalMilliseconds": 5000,
+    "CheckBalanceBeforeSolving": true,
+    "AntiCaptchaApiKey": "",
+    "AZCaptchaApiKey": "",
+    "CapMonsterHost": "127.0.0.3",
+    "CapMonsterPort": 80,
+    "CaptchasDotIoApiKey": "",
+    "CustomTwoCaptchaApiKey": "",
+    "CustomTwoCaptchaDomain": "",
+    "CustomTwoCaptchaPort": 80,
+    "DeathByCaptchaUsername": "",
+    "DeathByCaptchaPassword": "",
+    "DeCaptcherUsername": "",
+    "DeCaptcherPassword": "",
+    "ImageTyperzApiKey": "",
+    "RuCaptchaApiKey": "",
+    "SolveCaptchaApiKey": "",
+    "SolveRecaptchaApiKey": "",
+    "TrueCaptchaUsername": "",
+    "TrueCaptchaApiKey": "",
+    "TwoCaptchaApiKey": ""
+  },
+  "ProxySettings": {
+    "ProxyConnectTimeoutMilliseconds": 5000,
+    "ProxyReadWriteTimeoutMilliseconds": 10000,
+    "GlobalBanKeys": [],
+    "GlobalRetryKeys": []
+  },
+  "PuppeteerSettings": {
+    "ChromeBinaryLocation": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  }
+}
